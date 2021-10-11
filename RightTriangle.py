@@ -8,8 +8,8 @@ class RightTriangle(Triangle):
         size = InputInt('size of triangle: ')
         if (size%2==0):
             size+=1
-        innerChar=input('inner character: ')
-        outerChar=input('outer character: ')
+        innerChar = input('inner character: ')
+        outerChar = input('outer character: ')
         flipX = InputBoolean('Flip Horizantally: ')
         flipY = InputBoolean('Flip Vertically: ')
         return (size,innerChar,outerChar,flipY,flipX)

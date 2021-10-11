@@ -8,8 +8,8 @@ class IsoscelesTriangle(Triangle):
         size = InputInt('size of triangle: ')
         if (size%2==0):
             size+=1
-        innerChar=input('inner character: ')
-        outerChar=input('outer character: ')
+        innerChar = input('inner character: ')
+        outerChar = input('outer character: ')
         flip = InputBoolean('Flip Vertically: ')
         return (size,innerChar,outerChar,flip)
     def GetTriangle(self,size:int=0,flip:bool=False,outerChar:string='',innerChar:string='&') -> string:
